@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.access-deny {
+    background-color: black;
+    color: red;
+}
+
+#sp {
+    display: none;
+}
+
+.font0-5 {
+    font-size: 0.5rem;
+}
+
+.font1-0 {
+    font-size: 1.0rem;
+}
+
+.font1-5 {
+    font-size: 1.5rem;
+}
+
+.font2-0 {
+    font-size: 2.0rem;
+}
+
+.font3-0 {
+    font-size: 3.0rem;
+}
