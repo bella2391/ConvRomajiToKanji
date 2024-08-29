@@ -1,6 +1,5 @@
 <?php
-function getConvRomajiToKanaString($word) 
-{
+function getConvRomajiToKanaString($word) {
     $word = str_replace('.','。', $word);
     $word = str_replace('-','ー', $word);
     $word = str_replace(',','、', $word);
@@ -232,6 +231,5 @@ function getConvRomajiToKanaString($word)
     $word = str_replace('e','え', $word);
     $word = str_replace('o','お', $word);
     $word = str_replace('m','ん', $word);
-
     return $word;
 }

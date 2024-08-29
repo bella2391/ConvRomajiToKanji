@@ -1,6 +1,5 @@
 <?php
-function getConvKanaToKanjiList($kana)
-{
+function getConvKanaToKanjiList($kana) {
     $curl = curl_init();
     $encodeWord = urlencode($kana);
     $http = "http://www.google.com/transliterate?langpair=ja-Hira|ja&text=".$encodeWord;
